@@ -33,7 +33,6 @@ AUTHENTICATION_BACKENDS = [
     'allauth.account.auth_backends.AuthenticationBackend',
 ]
 
-
 INSTALLED_APPS = [
     'customer',
     'restaurant',
@@ -138,3 +137,5 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 ACCOUNT_ADAPTER = 'restaurant.account_adapter.NoNewUsersAccountAdapter'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+LOGIN_REDIRECT_URL = 'dashboard'
