@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'z5#cs(ow)tf^^%@#ym%-)urt2w1_dvwjqp6nl03_jl_d_x!52*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://zabdeliver.herokuapp.com', 'localhost', '127.0.0.1']
 
 # Application definition
 
